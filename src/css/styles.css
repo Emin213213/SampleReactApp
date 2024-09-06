@@ -1,0 +1,304 @@
+@charset "UTF-8";
+.newsletter-title, .section-title, ul .shop-item {
+  font-family: "Candal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.product-prices, .section-description, ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style: none; /* Убирает маркеры списка */
+  padding: 0; /* Убирает внутренние отступы */
+  margin: 0; /* Убирает внешние отступы */
+  display: flex;
+  justify-content: center; /* Центрирует элементы горизонтально */
+  align-items: center; /* Центрирует элементы вертикально */
+  text-align: center;
+  margin-top: 30px;
+  gap: 40px;
+  margin: 0px 30px 1px 60px;
+}
+ul .navbar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul .search-input {
+  width: 570px;
+  height: 48px;
+  border-radius: 52px;
+  margin: 0 15px;
+}
+ul .shop-item {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.clothes-section {
+  background-image: url("/img/Rectangle 2.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 4em; /* Увеличенный размер текста */
+  font-weight: 900; /* Очень жирный шрифт */
+  line-height: 1.1; /* Высота строки для уменьшения интервала между строками */
+  padding-left: 237px; /* Отступ слева */
+}
+
+.section-description {
+  padding-left: 237px;
+}
+
+.shop-button {
+  color: #fff;
+  background-color: #333;
+  border: none; /* Убираем границу */
+  border-radius: 50px;
+  padding: 17px 75px;
+  font-size: 1em; /* Размер текста */
+  font-weight: 400; /* Жирность текста */
+  cursor: pointer; /* Изменение курсора при наведении */
+  outline: none; /* Убираем обводку */
+  transition: background-color 0.3s ease;
+  margin-left: 237px;
+  margin-top: 10px;
+}
+.shop-button:hover {
+  background-color: #555; /* Цвет при наведении */
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-left: 107px;
+  gap: 40px;
+}
+.stats-container .stat-number {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.img-brend {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 20px 0px;
+  background-color: #000;
+}
+
+.product-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-images img {
+  border-radius: 20px;
+}
+
+.product-names {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 45px;
+}
+
+.new-arrivals {
+  display: flex;
+  justify-content: center;
+}
+
+.product-prices {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.current-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.old-price {
+  font-size: 18px;
+  color: #888;
+  margin-right: 10px;
+}
+
+.discount-button {
+  background-color: #f8d7da;
+  border: none;
+  font-size: 15px;
+  color: #ff3333;
+  padding: 9px 16px;
+  border-radius: 60px;
+  line-height: 16.2px;
+}
+
+.view-button {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials-title {
+  font-size: 48px;
+  margin-left: 90px;
+}
+
+.testimonials-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Расстояние между отзывами */
+  flex-wrap: wrap; /* Чтобы отзывы оставались на одной линии */
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  max-width: 370px;
+}
+
+.nemes-block-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-name {
+  font-size: 1.2rem; /* Размер шрифта имени */
+  margin-bottom: 10px; /* Отступ снизу имени */
+  font-size: 20px;
+}
+
+.testimonial-text {
+  font-size: 1rem; /* Размер текста отзыва */
+  color: #555; /* Цвет текста */
+  line-height: 1.6; /* Межстрочный интервал */
+  text-align: left; /* Выравнивание текста по левому краю */
+}
+
+.newsletter-section {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.newsletter-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.newNavBar {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter-input {
+  padding: 15px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+.newsletter-button {
+  padding: 15px 30px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  background-color: #e0e0e0;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+  font-family: Arial, sans-serif;
+  z-index: 100;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  max-width: 250px;
+}
+
+.footer-logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-links {
+  flex: 1;
+  max-width: 150px;
+  margin-right: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-links h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */
